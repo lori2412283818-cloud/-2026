@@ -1,0 +1,164 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>作品集合</title>
+    <meta name="description" content="作品集合静态网页展示">
+    <style>
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body {
+        margin: 0;
+        background: #0b0f12;
+        color: #fff;
+        font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", Arial, sans-serif;
+      }
+      .portfolio {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .page {
+        position: relative;
+        width: min(100%, 2526px);
+        margin: 0 auto;
+        padding: 0;
+        line-height: 0;
+        scroll-margin-top: 0;
+      }
+      .page.wide { width: min(100%, 3512px); }
+      .page img {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        border: 0;
+      }
+      .hotspot {
+        position: absolute;
+        display: block;
+        z-index: 2;
+        line-height: 1;
+        background: transparent;
+        border: 0;
+        outline-offset: -3px;
+      }
+      .hotspot:focus-visible {
+        outline: 2px solid rgba(46, 255, 216, 0.95);
+        background: rgba(46, 255, 216, 0.12);
+      }
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+      @media (max-width: 720px) {
+        .page, .page.wide { width: 100%; }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="portfolio" aria-label="作品集合页面">
+      <h1 class="sr-only">作品集合</h1>
+      <section class="page" id="cover"><img src="PNG/0.png" alt="作品集合封面" width="2526" height="1531" fetchpriority="high"></section>
+      <section class="page" id="resume"><img src="PNG/0-1.png" alt="个人简历与工作经历" width="2526" height="1531"></section>
+      <section class="page wide" id="brand-design"><img src="PNG/1.png" alt="品牌设计章节" width="3512" height="2127" loading="lazy"></section>
+      <section class="page wide"><img src="PNG/2.png" alt="品牌设计作品 1" width="3512" height="15018" loading="lazy"></section>
+      <section class="page wide"><img src="PNG/3.png" alt="品牌设计作品 2" width="3512" height="19764" loading="lazy"></section>
+      <section class="page wide"><img src="PNG/4.png" alt="品牌设计作品 3" width="3512" height="2127" loading="lazy"></section>
+      <section class="page wide"><img src="PNG/5.png" alt="品牌设计作品 4" width="3512" height="15018" loading="lazy"></section>
+      <section class="page wide"><img src="PNG/6.png" alt="品牌设计作品 5" width="3512" height="7249" loading="lazy"></section>
+      <section class="page wide"><img src="PNG/7.png" alt="品牌与版式作品概览" width="3512" height="2127" loading="lazy"></section>
+      <section class="page wide" id="activity-visual"><img src="PNG/8.png" alt="活动视觉章节" width="3512" height="2127" loading="lazy"></section>
+      <section class="page wide"><img src="PNG/9.png" alt="活动视觉作品 1" width="3512" height="2127" loading="lazy"></section>
+      <section class="page wide"><img src="PNG/10.png" alt="活动视觉作品 2" width="3512" height="2127" loading="lazy"></section>
+      <section class="page wide"><img src="PNG/11.png" alt="活动视觉作品 3" width="3512" height="2127" loading="lazy"></section>
+      <section class="page wide"><img src="PNG/12.png" alt="活动视觉作品 4" width="3512" height="2127" loading="lazy"></section>
+      <section class="page wide"><img src="PNG/13.png" alt="活动视觉作品 5" width="3512" height="2127" loading="lazy"></section>
+      <section class="page wide"><img src="PNG/14.png" alt="活动视觉作品 6" width="3512" height="2127" loading="lazy"></section>
+      <section class="page wide" id="layout-design"><img src="PNG/15.png" alt="版式设计章节" width="3512" height="2127" loading="lazy"></section>
+      <section class="page wide"><img src="PNG/16.png" alt="版式设计作品 1" width="3512" height="2127" loading="lazy"></section>
+      <section class="page wide"><img src="PNG/17.png" alt="版式设计作品 2" width="3512" height="2127" loading="lazy"></section>
+      <section class="page wide"><img src="PNG/18.png" alt="版式设计作品 3" width="3512" height="2127" loading="lazy"></section>
+      <section class="page wide"><img src="PNG/19.png" alt="版式设计作品 4" width="3512" height="2127" loading="lazy"></section>
+      <section class="page wide" id="ui-design"><img src="PNG/20.png" alt="UI设计章节" width="3512" height="2130" loading="lazy"></section>
+      <section class="page wide"><img src="PNG/21.png" alt="UI设计作品 1" width="3512" height="2127" loading="lazy"></section>
+      <section class="page wide"><img src="PNG/22.png" alt="UI设计作品 2" width="3512" height="2127" loading="lazy"></section>
+      <section class="page wide"><img src="PNG/23.png" alt="UI设计作品 3" width="3512" height="2127" loading="lazy"></section>
+      <section class="page wide"><img src="PNG/24.png" alt="UI设计作品 4" width="3512" height="2127" loading="lazy"></section>
+      <section class="page wide"><img src="PNG/25.png" alt="UI设计作品 5" width="3512" height="2127" loading="lazy"></section>
+      <section class="page wide"><img src="PNG/26.png" alt="UI设计作品 6" width="3512" height="2127" loading="lazy"></section>
+      <section class="page wide"><img src="PNG/27.png" alt="UI设计作品 7" width="3512" height="2127" loading="lazy"></section>
+      <section class="page wide" id="ai-design"><img src="PNG/28.png" alt="AI设计章节" width="3512" height="2127" loading="lazy"></section>
+      <section class="page wide"><img src="PNG/29.png" alt="AI设计作品 1" width="3512" height="2127" loading="lazy"></section>
+      <section class="page wide"><img src="PNG/30.png" alt="AI设计作品 2" width="3512" height="4139" loading="lazy"></section>
+      <section class="page" id="thanks"><img src="PNG/31.png" alt="感谢页" width="2527" height="1531" loading="lazy"></section>
+    </main>
+
+    <template id="nav-hotspots">
+      <a class="hotspot" href="#brand-design" aria-label="跳转到品牌设计"></a>
+      <a class="hotspot" href="#activity-visual" aria-label="跳转到活动视觉"></a>
+      <a class="hotspot" href="#layout-design" aria-label="跳转到版式设计"></a>
+      <a class="hotspot" href="#ui-design" aria-label="跳转到UI设计"></a>
+      <a class="hotspot" href="#ai-design" aria-label="跳转到AI设计"></a>
+    </template>
+
+    <script>
+      const targets = [
+        [2285, 150, 205, 110],
+        [2490, 150, 205, 110],
+        [2695, 150, 205, 110],
+        [2900, 150, 145, 110],
+        [3045, 150, 250, 110]
+      ];
+      const coverTargets = [
+        [1640, 74, 165, 82],
+        [1805, 74, 155, 82],
+        [1960, 74, 155, 82],
+        [2115, 74, 115, 82],
+        [2230, 74, 180, 82]
+      ];
+
+      const template = document.querySelector("#nav-hotspots");
+      document.querySelectorAll(".page").forEach((page) => {
+        if (page.id === "resume" || page.id === "thanks") return;
+        const clone = template.content.cloneNode(true);
+        const coords = page.id === "cover" ? coverTargets : targets;
+        clone.querySelectorAll(".hotspot").forEach((link, index) => {
+          const [x, y, w, h] = coords[index];
+          link.dataset.x = x;
+          link.dataset.y = y;
+          link.dataset.w = w;
+          link.dataset.h = h;
+        });
+        page.appendChild(clone);
+      });
+
+      function positionHotspots() {
+        document.querySelectorAll(".page").forEach((page) => {
+          const img = page.querySelector("img");
+          if (!img || !img.naturalWidth) return;
+          const scale = img.getBoundingClientRect().width / img.naturalWidth;
+          page.querySelectorAll(".hotspot").forEach((link) => {
+            link.style.left = `${Number(link.dataset.x) * scale}px`;
+            link.style.top = `${Number(link.dataset.y) * scale}px`;
+            link.style.width = `${Number(link.dataset.w) * scale}px`;
+            link.style.height = `${Number(link.dataset.h) * scale}px`;
+          });
+        });
+      }
+
+      window.addEventListener("load", positionHotspots);
+      window.addEventListener("resize", positionHotspots);
+      document.querySelectorAll("img").forEach((img) => img.addEventListener("load", positionHotspots));
+    </script>
+  </body>
+</html>
